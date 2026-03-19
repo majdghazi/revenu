@@ -493,7 +493,7 @@ const Revenus = () => {
               }}>
                 🏆 ACHIEVEMENTS ROADMAP
               </p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'center', padding: isMobile ? '0 8px' : '0' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'center' }}>
                 {MILESTONES.map((milestone, index) => {
                   const unlocked = stats.epargne.totale >= milestone.amount;
                   return (
@@ -518,7 +518,7 @@ const Revenus = () => {
                         whileHover={unlocked ? { scale: 1.05 } : {}}
                         style={{
                           width: '100%',
-                          padding: isMobile ? '16px' : '20px',
+                          padding: isMobile ? '12px 14px' : '20px',
                           background: unlocked
                             ? `linear-gradient(135deg, ${milestone.color}40, ${milestone.color}20)`
                             : 'rgba(71, 85, 105, 0.2)',
@@ -913,7 +913,7 @@ const ModalRevenus = ({ stats, onClose, isMobile }) => {
           background: 'linear-gradient(135deg, rgba(30, 41, 59, 0.98) 0%, rgba(15, 23, 42, 0.98) 100%)',
           border: '2px solid rgba(16, 185, 129, 0.5)',
           borderRadius: isMobile ? '16px' : '24px',
-          padding: isMobile ? '20px' : '40px',
+          padding: isMobile ? '12px' : '40px',
           maxWidth: '900px',
           width: '100%',
           maxHeight: '90vh',
@@ -1041,7 +1041,7 @@ const ModalDepenses = ({ stats, onClose, isMobile }) => {
           background: 'linear-gradient(135deg, rgba(30, 41, 59, 0.98) 0%, rgba(15, 23, 42, 0.98) 100%)',
           border: '2px solid rgba(234, 179, 8, 0.5)',
           borderRadius: isMobile ? '16px' : '24px',
-          padding: isMobile ? '20px' : '40px',
+          padding: isMobile ? '12px' : '40px',
           maxWidth: '900px',
           width: '100%',
           maxHeight: '90vh',
@@ -1163,7 +1163,7 @@ const ModalEpargne = ({ stats, onClose, isMobile }) => {
           background: 'linear-gradient(135deg, rgba(30, 41, 59, 0.98) 0%, rgba(15, 23, 42, 0.98) 100%)',
           border: '2px solid rgba(139, 92, 246, 0.5)',
           borderRadius: isMobile ? '16px' : '24px',
-          padding: isMobile ? '20px' : '40px',
+          padding: isMobile ? '12px' : '40px',
           maxWidth: '900px',
           width: '100%',
           maxHeight: '90vh',
