@@ -493,11 +493,11 @@ const Revenus = () => {
               }}>
                 🏆 ACHIEVEMENTS ROADMAP
               </p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'center' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'center', padding: isMobile ? '0 8px' : '0' }}>
                 {MILESTONES.map((milestone, index) => {
                   const unlocked = stats.epargne.totale >= milestone.amount;
                   return (
-                    <div key={milestone.amount} style={{ width: '100%', maxWidth: '400px', position: 'relative' }}>
+                    <div key={milestone.amount} style={{ width: '100%', maxWidth: isMobile ? '100%' : '400px', position: 'relative' }}>
                       {/* Timeline connector */}
                       {index < MILESTONES.length - 1 && (
                         <div style={{
