@@ -1,0 +1,12 @@
+{
+  "joursConges": [
+    "2026-02-03",
+    "2026-02-04"
+  ],
+  "retraitsEpargne": 0,
+  "epargneReelleTotale": 3000,
+  "historiqueEpargne": {
+    "2026-01": 256,
+    "2026-02": 2000
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "chargesFixes": {
+    "maisonLocation": [
+      { "libelle": "Loyer", "montant": 1000, "jourPrelevement": 5 },
+      { "libelle": "Gaz", "montant": 209, "jourPrelevement": 5 },
+      { "libelle": "Électricité", "montant": 77, "jourPrelevement": 5 },
+      { "libelle": "Garage", "montant": 80, "jourPrelevement": 5 },
+      { "libelle": "Eau", "montant": 50, "jourPrelevement": 5 }
+    ],
+    "abonnements": [
+      { "libelle": "Free Sophia", "montant": 10, "jourPrelevement": 10 },
+      { "libelle": "Orange (1ère partie)", "montant": 29, "jourPrelevement": 9 },
+      { "libelle": "Orange (2ème partie)", "montant": 4, "jourPrelevement": 24 },
+      { "libelle": "Free Hicham", "montant": 9, "jourPrelevement": 10 },
+      { "libelle": "Netflix", "montant": 10, "jourPrelevement": 10 },
+      { "libelle": "Amazon Prime", "montant": 10, "jourPrelevement": 10 },
+      { "libelle": "Apple Storage", "montant": 13, "jourPrelevement": 10 },
+      { "libelle": "Adobe", "montant": 37, "jourPrelevement": 9 },
+      { "libelle": "Microsoft", "montant": 10, "jourPrelevement": 10 },
+      { "libelle": "LCL", "montant": 12, "jourPrelevement": 10 },
+      { "libelle": "Basic Fit", "montant": 25, "jourPrelevement": 9 },
+      { "libelle": "Freepik", "montant": 19, "jourPrelevement": 3 },
+      { "libelle": "Claude", "montant": 110, "jourPrelevement": 18 },
+      { "libelle": "Uber Eats", "montant": 6, "jourPrelevement": 10 }
+    ],
+    "chargesVoiture": [
+      { "libelle": "Assurance", "montant": 125, "jourPrelevement": 5 },
+      { "libelle": "Gazoil (semaine 1)", "montant": 50, "jourPrelevement": 5 },
+      { "libelle": "Gazoil (semaine 2)", "montant": 50, "jourPrelevement": 11 },
+      { "libelle": "Gazoil (semaine 3)", "montant": 50, "jourPrelevement": 19 },
+      { "libelle": "Gazoil (semaine 4)", "montant": 50, "jourPrelevement": 25 }
+    ],
+    "famille": [
+      { "libelle": "Hajiba", "montant": 150, "jourPrelevement": 5 },
+      { "libelle": "Sophia", "montant": 100, "jourPrelevement": 5 },
+      { "libelle": "Hicham SAPIN (1ère partie)", "montant": 75, "jourPrelevement": 5 },
+      { "libelle": "Hicham SAPIN (2ème partie)", "montant": 75, "jourPrelevement": 20 }
+    ],
+    "courses": [
+      { "libelle": "Courses (semaine 1)", "montant": 200, "jourPrelevement": 5 },
+      { "libelle": "Courses (semaine 2)", "montant": 200, "jourPrelevement": 12 },
+      { "libelle": "Courses (semaine 3)", "montant": 200, "jourPrelevement": 19 },
+      { "libelle": "Courses (semaine 4)", "montant": 200, "jourPrelevement": 26 }
+    ],
+    "deplacementBureau": [
+      { "libelle": "Déplacement (semaine 1)", "montant": 25, "jourPrelevement": 5 },
+      { "libelle": "Déplacement (semaine 2)", "montant": 25, "jourPrelevement": 12 },
+      { "libelle": "Déplacement (semaine 3)", "montant": 25, "jourPrelevement": 19 },
+      { "libelle": "Déplacement (semaine 4)", "montant": 25, "jourPrelevement": 26 }
+    ],
+    "chargesAnnexes": [
+      { "libelle": "Charges Annexes (1-10)", "montant": 100, "jourPrelevement": 10 },
+      { "libelle": "Charges Annexes (11-20)", "montant": 100, "jourPrelevement": 20 },
+      { "libelle": "Charges Annexes (21-30)", "montant": 100, "jourPrelevement": 30 }
+    ]
+  },
+  "credits": [
+    {
+      "libelle": "LCL Crédit",
+      "montant": 333,
+      "jourPrelevement": 9,
+      "dateFin": "2026-05-31"
+    },
+    {
+      "libelle": "Mac",
+      "montant": 273,
+      "jourPrelevement": 21,
+      "dateFin": "2026-06-30"
+    },
+    {
+      "libelle": "Voiture",
+      "montant": 583,
+      "jourPrelevement": 15,
+      "dateFin": "2028-03-31"
+    },
+    {
+      "libelle": "Rajaa",
+      "montant": 200,
+      "jourPrelevement": 5,
+      "dateFin": "2027-09-30"
+    }
+  ]
+}
